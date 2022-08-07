@@ -1,16 +1,16 @@
 # Rossman-Sales-Prediction-Regression
-Summary:
+# Introduction:
 
 Sales forecast is one of the most important weapons a retail company can possibly have in its arsenal. It helps a firm to manage its inventory, warehousing, and supply chain effectively and cut down costs significantly. 
 Rossmann similarly, is a pharmaceutical store chain with over 3000 stores across 7 European countries, whose past sales data is been made available to us. We need to model a regression model that’d help Rossmann predict its sales for a horizon of 6 weeks. 
 
 
-Objective: 
+# Objective: 
 
 Given the past sales data, along with data about competitive stores, in its vicinity, I’m required to develop a machine learning regression model that can predict the sales for a forecast horizon of 6 weeks.
 
 
-Dataset:
+# Dataset:
 We have a dataset containing daily sales entries of over 1115 Rossman stores over a period of two and a half years (2013-01-01 to 2015-07-31), along with supplemental data about the competitional stores as well. Few of the columns in the dataset: 
 ● Id - an Id that represents a (Store, Date) duple within the test set 
 
@@ -31,7 +31,7 @@ We have a dataset containing daily sales entries of over 1115 Rossman stores ove
 ● PromoInterval - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
 
 
-Approach:
+# Approach:
 
 Developing a machine learning model involves following steps:
 1. Data Description: Understanding the characteristics of the dataset in hand.
@@ -43,7 +43,7 @@ Developing a machine learning model involves following steps:
 7. Model Implementation and prediction 
 
 
-Results:
+# Results:
 
 1. Regression:
 With the data filtered for multicollinearity and features trimmed down, we ran a number of
